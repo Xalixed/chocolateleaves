@@ -1,0 +1,29 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+h2 {
+  color: blue;
+}
+h3 {
+  color: navy;
+}
+p {
+  color: black;
+}
+body {
+  font-family: Arial;
+}
+
+.changelog {
+  background-color: white; 
+  border-style: inset;
+}
+.changelog-entry {
+  background-color: white; 
+  border-bottom: solid;
+  border-color: lightslategrey;
+  margin: 10px;
+}
