@@ -30,6 +30,9 @@ body {
 .container {
   display: grid;
   grid-template-columns: 290px 1fr;
+  width: 100%;
+  max-width: 1000px;
+margin: 0 auto
 }
 .sidebar {
   background-color: white; 
