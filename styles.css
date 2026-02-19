@@ -27,3 +27,14 @@ body {
   border-color: lightslategrey;
   margin: 10px;
 }
+.container {
+  display: grid;
+  grid-template-columns: 290px 1fr;
+}
+.sidebar {
+  background-color: white; 
+  margin-right: 30px;
+ height: 100vh;
+  position: sticky; /* Stay in place */
+   top: 0;
+}
