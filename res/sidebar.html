@@ -2,63 +2,83 @@
 <html>
 <head>
 <title>Sidebar</title>
-<style>
+<style type="text/css">
     .border {
-  border-color: lightgrey;
-  border-style: solid;
-  margin: 5px;
-  padding: 5px;
-}
+      border-color: white;
+      background-color: black;
+      border-style: solid;
+      padding: 5px;
+      margin-bottom:10px;
+    }
+  h1, h2, h3 {
+    color: powderblue;
+  }
+  p, ul, dl, small {
+   color: white;
+  }
+  a:link {
+    color: dodgerblue;
+  }
+  a:visited {
+    color: violet;
+  }
+  a:active {
+    color: tomato;
+  }
+  body {
+    font-family: arial;
+  }
 </style>
 </head>
-<body style="font-family: Arial">
-<div class="border">
-    <h2><center>Navigation</center></h2>
-    <hr>
+<body>
+<h2><center>Navigation</center></h2>
+<div class="border" id="navigation">
  <dl>
-  <dt><a href="../index.html" target="_parent">Website Home</a></dt>
-  	<dd>- Development Updates</dd>
-  	<dd>- AI Usage Disclosure :(</dd>
-  <dt><a href="../about.html" target="_parent">About Us</a></dt>
-  	<dd>- Socials</dd>
-  	<dd>- Alters</dd>
-  	<dd>- Info Ig Idk</dd>
+  <dt><a href="../index.html" target="_parent">About Us</a></dt>
+    <dd>- <a href="../index.html#socials" target="_parent">Socials</a></dd>
+    <dd>- <a href="../index.html#alters" target="_parent">Alters</a></dd>
+    <dd>- <a href="../index.html#info" target="_parent">Info Ig Idk</a></dd>
+  <dt><a href="../website.html" target="_parent">Website Home</a></dt>
+    <dd>- <a href="../website.html#devlog" target="_parent">Development Updates</a></dd>
+    <dd>- <a href="../website.html#ai" target="_parent">AI Usage Disclosure :(</a></dd>
   <dt><a href="../creations.html" target="_parent">Our Creations</a></dt>
-  	<dd>- 2D Art</dd>
-  	<dd>- 3D Art</dd>
+    <dd>- 2D Art</dd>
+    <dd>- 3D Art</dd>
   <dt><a href="../blog.html" target="_parent">Our Blog</a></dt>
+  <dt>Extras</dt>
+    <dd>- <a href="../extras/collections.html" target="_parent">Gif Collection</a></dd>
   </dl>
     </dl> 
     <small>i will make it all links as soon as i feel like doing it lol</small>
     <Br><Br><Br>
 </div>
-<div class="border">
-    <center>
-        <h2>Changelog</h2>
-        <p style="line-height:0px">Site last updated: 2/19/26</p>
-    </center>
-    <hr>
+<center><h2>Changelog</h2></center>
+<div class="border" id="changelog">
+  <p style="line-height:0px"><b>Last updated: 2/19/26</b></p>
     <ul>
         <li>made the content a bit narrower</li>
         <li>added this (changelog)</li>
+        <li>added jump links in navigation</li>
+        <li>about us is index now</li>
+        <li>made it DARK and TWISTED</li>
+        <li>added collections page</li>
     </ul>
     <Br><Br><Br>
 </div>
-<div class="border">
     <center>
         <h2>To Do</h2>
     </center>
-    <hr>
+<div class="border" id="todo">
     <ul>
-        <li>add blinkie/button/stamp collection</li>
         <li>make creations page</li>
-        <li>add jump links in the navigation thingy</li>
         <li>icons for socials</li>
+        <li>make song of the whenever prettier</li>
+        <li>give alters their own pages (this will take a bit...)</li>
     </ul>
     <Br><Br><Br>
 </div>
 <img src="retrough/buttons/desktop.webp" title="Website best viewed on desktop">
-<img src="retrough/buttons/cookie.webp" title="This website is 100% cookie free!"> <br>
+<img src="retrough/buttons/cookie.webp" title="This website is 100% cookie free!"> <img src="../res/retrough/buttons/browser.gif" title="ANY DAMN BROWSER"> <br>
 <img src="retrough/blinkies/bandwidth.webp" title="will work for bandwidth">
 </body>
 </html> 

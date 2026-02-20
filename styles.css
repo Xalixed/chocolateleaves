@@ -1,43 +1,67 @@
+h1, h2, h3 {
+  color: powderblue;
+}
+p, dl, ul {
+  color: white;
+}
+a:link {
+  color: dodgerblue;
+}
+a:visited {
+  color: violet;
+}
+a:active {
+  color: tomato;
+}
 body {
-  background-color: powderblue;
+  font-family: arial;
+  background-image: url("res/img/bg.svg");
+  background-size: 50px 50px;
 }
-h1 {
-  color: blue;
-}
-h2 {
-  color: blue;
-}
-h3 {
-  color: navy;
-}
-p {
-  color: black;
-}
-body {
-  font-family: Arial;
+audio {
+    border-style: solid;
+  border-color: white;
 }
 
 .changelog {
-  background-color: white; 
-  border-style: inset;
+  background-color: black; 
+  border-style: solid;
+  border-color: white;
 }
 .changelog-entry {
-  background-color: white; 
   border-bottom: solid;
   border-color: lightslategrey;
   margin: 10px;
 }
+
+.border {
+  border-color: white;
+  background-color: black;
+  border-style: solid;
+  padding: 5px;
+}
+
 .container {
   display: grid;
-  grid-template-columns: 290px 1fr;
+  grid-template-columns: 300px 1fr;
   width: 100%;
   max-width: 1000px;
-margin: 0 auto
+  margin: 0 auto;
 }
 .sidebar {
-  background-color: white; 
   margin-right: 30px;
-  height: 100vh;
-  position: sticky;
-  top: 0;
+  height: 100%;
+  min-height: 1200px;
+}
+.content {
+  background-color: black; 
+  border-style: solid;
+  border-color: white;
+  padding:10px;
+}
+iframe {
+  border:none;
+  background: transparent;
+  allowtransparency: "true";
+  display: block;
 }
