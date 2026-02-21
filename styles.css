@@ -18,15 +18,12 @@ body {
   background-image: url("res/img/bg.svg");
   background-size: 50px 50px;
 }
-audio {
-    border-style: solid;
-  border-color: white;
-}
 
 .changelog {
   background-color: black; 
   border-style: solid;
   border-color: white;
+  border-width: 1px;
 }
 .changelog-entry {
   border-bottom: solid;
@@ -34,10 +31,11 @@ audio {
   margin: 10px;
 }
 
-.border {
+.border, audio {
   border-color: white;
-  background-color: black;
+  border-width: 1px;
   border-style: solid;
+  background-color: black;
   padding: 5px;
 }
 
@@ -49,15 +47,16 @@ audio {
   margin: 0 auto;
 }
 .sidebar {
-  margin-right: 30px;
+  margin-right: 5px;
   height: 100%;
-  min-height: 1200px;
+  min-height: 1500px;
 }
 .content {
   background-color: black; 
   border-style: solid;
   border-color: white;
   padding:10px;
+  border-width: 1px;
 }
 iframe {
   border:none;
