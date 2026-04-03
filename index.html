@@ -1,84 +1,70 @@
  <!DOCTYPE html>
 <html>
 	<head>
-		<title>ChocolateLeaves</title>
+		<title>ChocolateLeaves - Home</title>
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<div class=container>
-			<div class=sidebar>
-				 <iframe src="res/sidebar.html" title="Sidebar" style="
-				 height:100%;width:100%;"></iframe> 
-			</div>
-			<div class=content>
-				<div class="welcome">
-					<img src="res/gif/title.gif" title="CHOCOLATELEAVES.ORG fire text" height="65px">
-					<img src="res/construction/scroll.webp" title="This website is under major construction. Please bear with us =]">
-				</div>
-				<p>
-				hello! we're a system, welcome to our little corner of the web! this website has quite a few things of ours, you can access everything and a bit more! through the sidebar! <br>
-				if you have any questions, we're open to answer them! you can contact us through any of our socials down below!</b>
-				</p>
-				<table style="width:0%">
-					<tr>
-					<td><a href="https://x.com/ferntheshork"><img src="res/social-ico/twitter.jpg" title="Twitter" height="32px"></a></td>
-					<td><a href="https://www.youtube.com/channel/UCP8sXCW_5Tj41ONHkx3-DQg"><img src="res/social-ico/youtube.jpg" title="Youtube" height="32px"></a></td>
-					<td><a href="https://discordapp.com/users/607263629292863509"><img src="res/social-ico/discord.jpg" title="Discord" height="32px"></a></td>
-					<td><a href="https://gdbrowser.com/u/Xalixed"><img src="res/social-ico/geometrydash.jpg" title="Geometry Dash" height="32px"></a></td>
-					<td><a href="https://chocolateleaves.carrd.co/"><img src="res/social-ico/carrd.jpg" title="Carrd" height="32px"></a></td>
-					</tr>
-				</table>
-					<div class="song">
-						<hr>
-						<h2>Song Of The <del>Day</del> Whenever</h2>
-							<table style="width:100%">
-								<tr> <td>
-									<img src="res/gif/music.gif" height="120px">
-								</td>
-								<td>
-									<audio controls style="width: 90%; margin-right:100px">
-  									<source src="res/TV WORLD.mp3" type="audio/ogg">
-									yo fool your borser dont support audio
-									</audio>
-									<h3><b>TV WORLD - <small>by Toby Fox</small></b></h3>
-								</td> </tr>
-					</table>
-					</div>
-					<div class="socials">
-				</div>
-				<div class="alters">
-				<hr>
-				<h2 id="alters">The Little Guyts ! <small>(alters)</small></h2>
-				<p>if you have any questions about anyone feel free to ask! this list isnt meant to be specific about everyone<br>also this list is (ROUGHLY) sorted based on Fronting Frequency</p>
-				<ul>
-					<li>kaz - he/it - male ?</li>
-					<li>vergil - he/him - male</li>
- 					<li>silas - he/him - male</li>
- 					<li>fern - she/fae - floragender</li>
-					<li>azure - he/they - demiboy</li>
- 					<li>saffy - it/its - genderless</li>
-					<li>oxi - it/he - genderless (robotkin)</li>
- 					<li>dusty - they/it - neutrois</li>
- 					<li>pip - any/all - agender</li>
-					<li>aurora - she/xe/it - sparklegender</li>
- 					<li>milo - she/pup - female</li>
- 					<li>lavender - she/they - female</li>
-					<li>dev - they/them - agender</li>
- 					<li>azriel - she/her - femboy thing</li>
- 					<li>skye - she/her - cat (therian)</li>
-					<li>skrynn - it/she - uhh</li>
-				</ul> 
-				</div>
-				<div class="info">
-				<hr>
-				<h2 id="info">Stuff We'd Like You To Know</h2>
-				<ul>
-					<li>we have OSDD-1B, meaning the seperation between alters isnt as strong as it would otherwise be in a full DID system. this also means we can (somewhat) share memories, so <b>please dont tell one alter something you wouldnt want another to know!</b></li>
-					<li>we're still figuring stuff out, so everything is very subject to change. please be patient with us we're trying :(</li>
-					<li>unless we're already talking to somebody, we usually have no clue whos fronting. please dont ask who it is first thing in a conversation cuz we dont know either lol</li>
-					<li><b>irl</b> we prefer to go by fern (they/them), just cuz we used to go by that name before we found out we were a system, plus people irl already call us fern lol getting them to call us something else would be a pain. you can still bring it up irl ofc just bear this all in your Mind Palace</li>
-				</ul>
-			</div>
+	<div class="box" style="max-width: 700px; padding: 20px;">
+		<div id="header"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
+		<script>fetch('res/embed/header.html').then(response => response.text()).then(data => {document.getElementById('header').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
+		<hr>
+		<!-- body starts NOW!!!! -->
+		<div class="welcome">
+			<h1 style="text-align: center;"><i>Welcome!</i></h1>
+			<p><b>We're a system!</b> This is our website, it has quite a bit of information and other things, you can navigate it via the navbar at the top, or the sitemap at the bottom! Information about individual alters can be found in the <a href="about.html">About Us</a> page!</p>
+			<p>Questions? Concerns? Criticisms? Just wanna say hi? Feel free to contact us through any of our socials are in the header above! Discord is currently the best way to contact us, we may be much slower on other platforms.</p>
+			<p><b>Any socials of ours not included here are inactive, we likely wil not respond if you try to contact us through them!</b></p>
 		</div>
+		<div class="box" style="width:680px;">
+			<div class="song" style="display: flex;flex-direction: row;">
+				<img src="res/songcover.jpg" width="20%">
+				<!-- spacer --> <div style="width: 20px;"></div>
+				<div class="player" style="width:80%; display: block; align-content: center; height: 130px;">
+					<h2 style="margin:5px">Song Of The <del>Day</del> Whenever</h2>
+					<audio controls style="width: 100%; margin:0%">
+  						<source src="res/song.opus" type="audio/ogg">
+					</audio>
+					<h3 style="margin:5px">Don't Get 2 Close (2 My Fantasy) - <small>Ween on Pure Guava<br>Chosen by Kaz</small></h3>
+				</div>
+			</div>
+			<details style="margin-top:10px">
+				<summary><strong>About this selection</strong></summary>
+				<p>fun fact: this exact audio file was ripped off of the pure guava CD our dad gave me, thinking i'd like it. tbh i thought most of the songs were ass but this one was pretty good, reminds me of joe hawleys cover of space oddity. idk what genre of music the two are but i like it :)</p>
+			</details>
+		</div>
+		<!-- spacer --> <div style="height: 20px;"></div>
+		<div class="changelogntodo">
+			<span style="
+			display: flex;
+			flex-direction: row;
+			width:100%;
+			">
+			<div class="changelog box" style="width:50%; height:150px; overflow-y: scroll;">
+			<div id="changelog"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
+			<script>fetch('res/embed/changelog.html').then(response => response.text()).then(data => {document.getElementById('changelog').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
+			</div>
+			<!-- spacer --> <div style="width: 20px;"></div>
+			<div class="todo box" style="width:50%; height:150px; overflow-y: scroll;">
+			<div id="todo"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
+			<script>fetch('res/embed/todo.html').then(response => response.text()).then(data => {document.getElementById('todo').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
+			</div>
+			</span>
+		</div>
+
+		<div class="dni box" style="margin-top:20px">
+			<h1 style="text-align: center;"><i>DNI List</i></h1>
+			<hr>
+			<p>If you fall under these categories, or support anyone who does, please avoid contacting us. You can interact with our posts and stuff just like dont talk to us you weirdo</p>
+			<ul>
+		  		<li>Immoral paraphiles (pedo, zoo, etc)</li>
+		  		<li>Any flavor of asshole (queerphobe, transphobe, zionist, racist, misogynistic, etc)</li>
+		 		 <li>NSFW accounts</li>
+		 		 <li>Support extreme AI usage</li>
+			</ul>
+		</div>
+	</div>
+		<div id="footer"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
+		<script>fetch('res/embed/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
 	</body>
 </html> 

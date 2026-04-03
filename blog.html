@@ -1,58 +1,31 @@
  <!DOCTYPE html>
 <html>
 	<head>
-		<title>ChocolateLeaves</title>
+		<title>ChocolateLeaves - Blog</title>
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<div class=container>
-			<div class=sidebar>
-				 <iframe src="res/sidebar.html" title="Sidebar" style="height:100%;width:100%;"></iframe> 
-			</div>
-			<div class=content>
-				<div class="welcome">
-					<h1>Blog</h1>
-					<img src="res/construction/header.gif" title="Sorry! Under Construction">
-				<div class="changelog">
-			<div class="changelog-entry">
-				<h3>Entry 6 - Anniversary Draws Closer<br><small>written by kaz at 03/1/26 4:57 PM</small></h3>
-				<p>birthday... 3/17.... today.... 3/1..... body ages soon..... gifts..... happy :)</p>
-				<p>also considering adding tools like a file converter and yt downloader to the site but id have to either learn how to code for like 9 different things (ffmpeg, bash, nginx, js, etc) or enlist the "help" of chat jippity (make it do it all for me (which i am NOT to be clear. either i learn 20 programming languages or it doesnt happen))</p>
-			</div>
-			<div class="changelog-entry">
-				<h3>Entry 5 - I FUCKING LOVE THRIFT SHOPPING!!!<br><small>written by kaz at 02/25/26 4:42 AM</small></h3>
-				<p>i went to a thrift store today and picked up an HP w2207h. the cool thing about it is that it can rotate on its side so i can fit more code on my screen!</p>
-				<p>for some reason it starts flickering whenever the aspect ratio is 16:10 even though thats what it is, regardless of resolution. ill try getting that fixed because right now text is all blurry and i no like it :(</p>
-			</div>
-			<div class="changelog-entry">
-				<h3>Entry 4 - <span style="color:#00ffff; font-family:'prophecy'" title="COLDWATER FELL FROM THE TOP OF THE SKY">COLDWATER FELL FROM THE TOP OF THE SKY</span><br><small>written by kaz at 02/22/26 7:09 AM</small></h3>
-				<p>last night was a mix of snow, sleet, and rain, and since it dipped below freezing, everything is now coated in ice again. for SOME reason our district decided not to cancel school today, even though all the others around us did. it sucks, but its whatever. you get what you get :p</p>
-				<p>i see the windshield of my car is totally CAKED in ice. no biggie i'll just get the ice scraper from the...</p>
-				<p>ah.</p>
-				<p>the trunk wont open.</p>
-				<p>the rear doors won't open, either.</p>
-				<p>also while i was waiting for the car to heat up to melt the ice (didnt work btw) i heard on the radio there's patches of black ice on the road</p>
-				<p>so were basically unable to get to school without throwing all safety out of the window lmao yea no fuck that were just not going today. nuh uh!</p>
-				<p>also shout out to silas for writing emails to all our teachers abt it 🔥🔥🔥</p>
-			</div>
-			<div class="changelog-entry">
-				<h3>Entry 3 - I Saw The Best Movie Of All Time It Was So Cool<br><small>written by kaz at 02/21/26 3:35 AM <sub>is anyone else gonna use this blog orrrr</sub></small></h3>
-				<p>me and my bf watched The Thing (1982) last night, might actually be the greatest movie ive ever seen. i would talk more about it but i wouldnt want to spoil it, PLEASE watch it for yourself its SO GOOD. also below this post there definitely isnt a black hyperlink to a website where you can watch it for free, thatd be pretty bad. piracy is bad and i do not condone it.</p>
-				<p>off topic but i love my bf so much hes literally the best ever i wish i could spend more time with him :3</p>
-				<a href="https://nepu.to/" style="color:black">inconspicuous hyperlink</a>
-			</div>
-			<div class="changelog-entry">
-				<h3>Entry 2 - Wait We Can Have Individual Bios Again Fuck Yea !!!<br><small>written by kaz at 02/20/26 12:00 AM</small></h3>
-				<p>our old carrd had individual bios for alters, either written by themselves or me. we ended up replacing it with our current carrd since there were too many to stay under carrds 50 element limit for free accounts</p>
-				<p>BUUUUT now that we have our own website and can do What Ever The Fuck We Want, we can actually bring that back! yay! woohoo! thatll be a bit tho we still got stuff to work on here on the main page</p>
-			</div>
-			<div class="changelog-entry">
-				<h3>Entry 1 - Test Test Testing<br><small>written by kaz at 02/19/26 2:33 PM</small></h3>
-				<p>here it is! heres the blog! fun fact this uses literally the same div class as the devlog. this is really just to test the page working :p<br>
-				also i hope having to push a full update to the site for 1 blog post wont be an issue</p>
-			</div>
-				</div>
+	<div class="box" style="max-width: 700px; padding: 20px;">
+		<div id="header"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
+		<script>fetch('res/embed/header.html').then(response => response.text()).then(data => {document.getElementById('header').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
+		<hr>
+		<!-- body starts NOW!!!! -->
+		<div class="welcome">
+			<h1 style="text-align: center;"><i>This Is The Blog</i></h1>
+			<p>Welcome To The Blog. We write down our thoughts on stuff here.</p>
+			<p>We're currently <small>not</small> working on porting the old posts to this new website. For the time being, you can only find them on the legacy site <a href=/legacy/blog.html>here.</a></p>
 		</div>
+		<div class="post box" id="1">
+			<details><summary>
+			<b>Entry 1 - Welcome To The New Site
+			<br><small>Kaz - April 3rd 2026, 5:18 AM</small></b></summary>
+			<p>tbh this didnt take much time, worked on it for a few hours at a time since weve got nothing better to do with our time</p>
+			<p>anyway uhg a bit has happened since the last blog post. the body is older now because birthday happened, spring has started so there's pollen in the air and we are fucking MISERABLE We are DYING OUGFHGHH....... we have soaked like 18 handkerchiefs in snot its BAD. not even allergy medicine is enough (it does help but not 100%)</p>
+			<p>anyway i also started a keyboard collection and its already finished. its got 1 keyboard from every windows version, from 11 all the way down to ME ()</p>
+			</details>
 		</div>
+	</div>
+	<div id="footer"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
+		<script>fetch('res/embed/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
 	</body>
 </html> 

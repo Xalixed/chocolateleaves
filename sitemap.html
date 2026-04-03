@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>ChocolateLeaves - Sitemap</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+	<div class="box" style="max-width: 700px; padding: 20px;">
+		<div id="header"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
+		<script>fetch('res/embed/header.html').then(response => response.text()).then(data => {document.getElementById('header').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
+		<hr>
+		<!-- body starts NOW!!!! -->
+		<h1 style="text-align: center;"><i>Sitemap</i></h1>
+
+		<div class="rows" style="display: flex;flex-direction: row;">
+			<div class="row1" style="width:25%">
+				<h2>Main</h2>
+				<ul>
+		  			<li><a href="index.html">Welcome</a></li>
+		  			<li><a href="about.html">About Us</a></li>
+		  			<li><a href="art.html">Our Art</a></li>
+		  			<li><a href="blog.html">Blog</a></li>
+		  			<li><a href="bts.html">Credits</a></li>
+		  			<li>Footer
+		  				<ul>
+		  					<li><a href="sitemap.html">Sitemap</a></li>
+		  					<li><a href="legacy/index.html">Legacy</a></li>
+						</ul>
+		  			</li>
+				</ul>
+			</div>
+				<!-- spacer --> <div style="width: 20px;"></div>
+			<div class="row2" style="width:25%";>
+				<h2>Legacy</h2>
+				<ul>
+		  			<li><a href="legacy/index.html">About Us</a></li>
+		  			<li><a href="legacy/website.html">Website Home</a></li>
+		  			<li><a href="legacy/creations.html">Creations</a></li>
+		  			<li><a href="legacy/blog.html">Blog</a></li>
+		  			<li>Extras
+		  				<ul>
+		  					<li><a href="legacy/extras/collections.html">Gif Collection</a></li>
+						</ul>
+		  			</li>
+				</ul>
+			</div>
+				<!-- spacer --> <div style="width: 20px;"></div>
+			<div class="row3" style="width:25%";>
+				
+			</div>
+				<!-- spacer --> <div style="width: 20px;"></div>
+			<div class="row4" style="width:25%";>
+				
+			</div>
+		</div>
+	</div>
+	<div id="footer"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
+		<script>fetch('res/embed/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
+	</body>
+</html> 

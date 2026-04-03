@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>ChocolateLeaves - Info</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div class="box" style="max-width: 700px; padding: 20px;">
+		<div id="header"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
+		<script>fetch('res/embed/header.html').then(response => response.text()).then(data => {document.getElementById('header').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
+		<hr>
+		<!-- body starts NOW!!!! -->
+		<div class="didntdo">
+			<h1 style="text-align: center;"><i>Credits</i></h1>
+				<p>Credits stuff on the website that we didn't do/make ourselves. Honesty is the best policy :)</p>
+				<details>
+					<summary><strong>Setting website up - ChatGPT :(</strong></summary>
+					<p>we have no idea how nginx or anything like that works, so we decided to ask chatjippity what to copy and paste into the server. looking back we totally could have looked it up online instead of using the Hallucination Machine, but it already happened so :p</p>
+				</details>
+				<details>
+					<summary><strong>Embedding HTML from other files - <a href="https://community.testmuai.com/t/how-can-i-include-one-html-file-inside-another-html-file/47208/3">This forum post</a></strong></summary>
+					<p>we wanted to make things like the header be sourced from a single file, so whenever we updated it we didn't have to copy paste the code into every page that has the header. on the old website we used an iframe for the sidebar, but we weren't quite satisfied with that approach. <br> this time around we <i>tried</i> to get chatgpt to generate the JS code, but once that didn't work we remembered we can search it up. the only hand AI had in this was giving us what to paste into google to get what we want (we didn't know how to word it in a way google liked lol). we ended up finding a video with the solution</p>
+				</details>
+				<details>
+					<summary><strong>Gradients - <a href="https://cssgradient.io/">cssgradient.io</a></strong></summary>
+					<p>didnt know how to do gradients in css, googled it, found this. <br>literally only putting this here because its really easy to use and wanted to credit it</p>
+				</details>
+			</div>
+		</div>
+		<div id="footer"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
+		<script>fetch('res/embed/footer.html').then(response => response.text()).then(data => {document.getElementById('footer').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
+	</body>
+</html> 
