@@ -10,9 +10,12 @@ background: linear-gradient(180deg,rgba(204, 204, 204, 1) 0%, rgba(179, 179, 179
   border-radius: 5px;
   border-width: 1px;
   padding: 4px;
-  width: 100px;
+  margin: 2px;
   text-shadow: 0px 3px #00000088;
+  font-weight:700;
+  text-align:center;
   color: #FFFFFF;
+  width: 127px;
 }
 
 .box {

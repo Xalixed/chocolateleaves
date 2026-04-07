@@ -11,26 +11,29 @@
 		<hr>
 		<!-- body starts NOW!!!! -->
 		<div class="welcome">
-			<h1 style="text-align: center;"><i>Welcome!</i></h1>
-			<p><b>We're a system!</b> This is our website, it has quite a bit of information and other things, you can navigate it via the navbar at the top, or the sitemap at the bottom! Information about individual alters can be found in the <a href="about.html">About Us</a> page!</p>
-			<p>Questions? Concerns? Criticisms? Just wanna say hi? Feel free to contact us through any of our socials are in the header above! Discord is currently the best way to contact us, we may be much slower on other platforms.</p>
+			<p><b>Hello, we're a system!</b> This is our website, it has quite a bit of information and other things, you can navigate it via the navbar at the top, or the sitemap at the bottom! Information about individual alters can be found in the <a href="about.html">About Us</a> page!</p>
+			<p>Questions? Concerns? Criticisms? Just wanna say hi? Feel free to contact us through any of our socials in the header above! Discord is currently the best way to contact us, we may be much slower to reply on other platforms.</p>
 			<p><b>Any socials of ours not included here are inactive, we likely wil not respond if you try to contact us through them!</b></p>
 		</div>
-		<div class="box" style="width:680px;">
+		<!-- <div class="news box" style="height:200px; overflow-y: scroll; margin-bottom:10px">
+			<div id="news"></div> 
+			<script>fetch('res/embed/news.html').then(response => response.text()).then(data => {document.getElementById('news').innerHTML = data;});</script> 
+		</div> -->
+		<div class="song box" style="width:680px;">
 			<div class="song" style="display: flex;flex-direction: row;">
 				<img src="res/songcover.jpg" width="20%">
 				<!-- spacer --> <div style="width: 20px;"></div>
 				<div class="player" style="width:80%; display: block; align-content: center; height: 130px;">
 					<h2 style="margin:5px">Song Of The <del>Day</del> Whenever</h2>
 					<audio controls style="width: 100%; margin:0%">
-  						<source src="res/song.opus" type="audio/ogg">
+  						<source src="res/song.mp3" type="audio/ogg">
 					</audio>
-					<h3 style="margin:5px">Don't Get 2 Close (2 My Fantasy) - <small>Ween on Pure Guava<br>Chosen by Kaz</small></h3>
+					<h3 style="margin:5px">Event Horizon (Reach for the Sun and Burn! Burn! Burn!)<br><small>By Heaven Pierce Her (Chosen by Kaz)</small></h3>
 				</div>
 			</div>
 			<details style="margin-top:10px">
 				<summary><strong>About this selection</strong></summary>
-				<p>fun fact: this exact audio file was ripped off of the pure guava CD our dad gave me, thinking i'd like it. tbh i thought most of the songs were ass but this one was pretty good, reminds me of joe hawleys cover of space oddity. idk what genre of music the two are but i like it :)</p>
+				<p>title so long it made me reformat how i display the title lol. anyway this song is just so beautiful. i remember playing fraud for the first time and getting to this part, i was in SHOCK. ik this is the opinion of pretty much everybody else but fraud might be my favorite layer in ultrakill, its just so neat. im both hyped and scared for 8-E, i have no idea how they could improve upon and/or subvert frauds theme like they did for 0-E and 1-E</p>
 			</details>
 		</div>
 		<!-- spacer --> <div style="height: 20px;"></div>
@@ -40,12 +43,12 @@
 			flex-direction: row;
 			width:100%;
 			">
-			<div class="changelog box" style="width:50%; height:150px; overflow-y: scroll;">
+			<div class="changelog box" style="width:50%; height:200px; overflow-y: scroll;">
 			<div id="changelog"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
 			<script>fetch('res/embed/changelog.html').then(response => response.text()).then(data => {document.getElementById('changelog').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
 			</div>
 			<!-- spacer --> <div style="width: 20px;"></div>
-			<div class="todo box" style="width:50%; height:150px; overflow-y: scroll;">
+			<div class="todo box" style="width:50%; height:200px; overflow-y: scroll;">
 			<div id="todo"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
 			<script>fetch('res/embed/todo.html').then(response => response.text()).then(data => {document.getElementById('todo').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
 			</div>
@@ -56,11 +59,13 @@
 			<h1 style="text-align: center;"><i>DNI List</i></h1>
 			<hr>
 			<p>If you fall under these categories, or support anyone who does, please avoid contacting us. You can interact with our posts and stuff just like dont talk to us you weirdo</p>
+			<p>Please use your best judgement when it comes to things that are not included here.</p>
 			<ul>
 		  		<li>Immoral paraphiles (pedo, zoo, etc)</li>
 		  		<li>Any flavor of asshole (queerphobe, transphobe, zionist, racist, misogynistic, etc)</li>
-		 		 <li>NSFW accounts</li>
-		 		 <li>Support extreme AI usage</li>
+		  		<li>Partake in problematic communities (ED, SH, proship, etc)</li>
+		 		 <li>NSFW accounts (seperate SFW accounts are fine ofc)</li>
+		 		 <li>Support generative AI</li>
 			</ul>
 		</div>
 	</div>
