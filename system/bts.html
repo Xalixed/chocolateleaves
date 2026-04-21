@@ -5,14 +5,17 @@
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<div class="box" style="max-width: 700px; padding: 20px;">
+		<div class="box" style="max-width: 700px; padding: 20px;background: url('res/diastrip2.png'),linear-gradient(180deg, rgba(61, 61, 61, 1) 0%, rgba(38, 38, 38, 1) 100%); height:150px; margin-bottom:10px">
 		<div id="header"></div> <!-- header placeholder? tbh idk what it is i just know the header goes here -->
 		<script>fetch('res/embed/header.html').then(response => response.text()).then(data => {document.getElementById('header').innerHTML = data;});</script> <!-- script to get the header html and put it there -->
-		<hr>
+		</div><div class="box" style="max-width: 700px; padding: 20px;">
 		<!-- body starts NOW!!!! -->
 		<div class="didntdo">
-			<h1 style="text-align: center;"><i>Credits</i></h1>
+			<div class="box" style="background:url('res/diastrip.png'),linear-gradient(180deg,rgba(107, 107, 107, 1) 0%, rgba(66, 66, 66, 1) 100%);">
+				<h1 style="text-align: center; color:#fff; text-shadow: 0px 4px #00000088; margin:4px"><i>Credits</i></h1>
+			</div>
 				<p>Credits stuff on the website that we didn't do/make ourselves. Honesty is the best policy :)</p>
+				<p>This website is also on Github, you can view the repo <a href="https://github.com/Xalixed/chocolateleaves">here!</a></p>
 				<details class="box">
 					<summary><strong>Setting website up - ChatGPT :(</strong></summary>
 					<p>we have no idea how nginx or anything like that works, so we decided to ask chatjippity what to copy and paste into the server. looking back we totally could have looked it up online instead of using the Hallucination Machine, but it already happened so :p</p>
